@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    margin: 0px;
+}
+
+header {
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px; /*como falei o 10px serve para os 4(top, right, bottom, left).*/
+    border-radius: 10px 10px 6px 6px;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.473);
+}
+
+nav {
+    background-color: rgb(75, 75, 75);
+    padding: 3px;
+    box-shadow: 4px 4px 5px 1px rgba(0, 0, 0, 0.384);
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin-right: 350px;
+}
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: white;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+article {
+    background-color: lightgray;
+    padding: 5px;
+}
+
+article > aside {
+    background-color: rgb(122, 122, 122);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px; /*como falei o 1px serve para os 4(top, right, bottom, left).*/
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+#assuntos {
+    background-color: rgb(138, 125, 125);
+    width: 230px;
+    color: white;
+}
+
+.bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50%; /*podemos usar porcentagem tambem*/
+}

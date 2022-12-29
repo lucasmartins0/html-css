@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Esse vídeo está hospedado no meu própio servidor</p>
+    <video src="midia/video.mp4.mp4" width="560" controls poster="imagens/mar.jpg"></video>
+    <br>
+    <video controls width="560" poster="imagens/mar.jpg">
+        <source src="midia/video.mp4.mp4" type="video/mp4">
+        <source src="midia/video.m4v.m4v" type="video/mp4">
+        <source src="midia/video.webm.webm" type="video/webm">
+    </video>
+    <h1>Inserindo vídeos do Youtube</h1> <!--Podemos usar também o vimeo, que é mais privado-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/4jWiihUUvis" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

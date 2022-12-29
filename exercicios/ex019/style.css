@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+    background-color:rgb(205, 255, 203);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* em html é id = CSS é #
+em HTML é class = CSS é . */
+
+h1 {
+    color: crimson;
+} 
+    
+#principal {
+    text-align: center;
+    color: rgba(75, 75, 255, 0.949);
+    background-color: rgba(255, 255, 255, 0.615);
+}
+
+.primeiro {
+    text-align: right;
+    color: chocolate;
+}
+h2 {
+    color: rgb(127, 105, 105);
+}
+.segundo {
+    color: darkmagenta;
+    text-align: right;
+}
+.terceiro {
+    font-style: italic;
+    font-size: 2.5em;
+    background-color: brown; /* o id se sobrepõem, então o background color do id está acima do do class*/
+    
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: aquamarine;
+    height: 200px;
+    width: 200px;
+    border-width: 15px;
+    border-style: solid;
+    border-color: burlywood;
+    /* Podemos simplificar usando shorhand: 10px(widht), solid(style), red(cor).*/
+
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    /*aqui quando os valores dos 4 sao iguais podemos uar apenas 1. Ex: padding:15px; que vai valer pros 4.*/
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    /* aqui podemos usar margin: 15px(cima) auto({direita} aqui vai centralizar a esquerda e a direita automaticamente) 15px (baixo), auto(esquerda)*/
+
+    outline-width: 5px;
+    outline-style: dashed;
+    outline-color: blueviolet;
+    /*usar margin-auto para centralizar a caixa no meio*/
+    /* box-level, podemos colocar inline-block que vai ser inline mas vai adotar algumas propiedades de block, como colocar height, widith... */
+}
+
+a {
+    border-width: 15px;
+    border-style: solid;
+    border-color: rgb(53, 61, 61);
+
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    /*inline-level*/
+}

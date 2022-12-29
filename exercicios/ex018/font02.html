@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    <style>
+        /*Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (apple Advanced Typography)
+            - svg */
+        @font-face {
+            font-family: 'Pokemon' ;
+            src: url('fonts/Pokemon Hollow.ttf') format('truetype');
+            font-weight: bolder;
+            font-style: normal; 
+            /* quando a fonte está dentro de uma pasta temos que usar /fonts ou o nome da pasta junto com o nome da fonte, exemplo: 'fonts/Pokemon Hollow.ttf ou .otf'*/
+        }
+        h1 {
+            font-family: 'Pokemon', Times, serif;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Fontes Externas</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam similique optio sint, rerum voluptatum, tenetur aliquam repellat vitae, praesentium ad dolore. Rem consequuntur possimus autem earum. Illo odio harum consequuntur.</p>
+</body>
+</html>
