@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../imagens/wallpaper001.jpg');
+}
+
+div {
+    border: 2px solid black; /*border- widht, border- style, border-color*/
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+div.quadrado {
+    background-color: lightgray;
+    background-image: url('../imagens/pattern003.png');
+   
+    
+}
+
+div.redondo {
+    background-color: rgb(17, 137, 192);
+    
+}
+
+div.triangulo {
+    background-image: linear-gradient(to bottom, yellow, orange);
+    
+}
