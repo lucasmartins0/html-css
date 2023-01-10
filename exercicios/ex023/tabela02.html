@@ -12,13 +12,14 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         td, th {
-            border: 1px solid rgba(0, 0, 0, 0.496);
+            border: 1px solid rgba(0, 0, 0, 0.813);
             padding: 10px;
         }
-        thead {
-            background-color: gray;
+        thead, tfoot {
+            background-color: #383838;
             color: white;
         }
         td.num {
@@ -30,17 +31,20 @@
             padding: 10px;
             background-color: lightgray;
         }
-        tfoot {
-            background-color: rgb(87, 87, 87);
-            color: white;
-            
-        }
+
         .primeiro {
             width: 180px;
         }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838; 
+        }
+       
         tbody > tr:nth-child(even) { /*Podemos usar por ex 2n, 3n ou odd (ímpar) ou even (par) */
             background-color: cornflowerblue;
-            font-weight: 600;
+            font-weight: 600 ;
 
         }
     </style>
