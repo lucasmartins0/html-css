@@ -13,10 +13,13 @@
 </head>
 <body>
     <h1>Meu primeiro formulário</h1>
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
-        <p><input type="submit" value="Enviar"></p>
+    <form method="get" action="cadastro.php" autocomplete="off"> <!--Tirar o auto preencimento(autocomplete), o action serve para criar uma ligação para onde vamos mandar o formulario(alguma linguagem de progamação)-->
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p>
+            <input type="submit" value="Enviar"></p>
     </form>
 </body>
 </html>
