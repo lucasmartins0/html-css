@@ -8,8 +8,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" 
      rel="stylesheet"/>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 600px) and (max-width: 1178px)">
+    <link rel="stylesheet" href="estilos/pc.css" media="screen and (min-width: 1178px) and (max-width: 1920px)">
+    <link rel="stylesheet" href="estilos/tv.css" media="screen and (min-width: 1920px)">
+    <link rel="stylesheet" href="estilos/print.css" media="only print">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu Site</h1>
         <i id="icone" class="material-symbols-outlined" onclick="clickMenu()">Menu</i>

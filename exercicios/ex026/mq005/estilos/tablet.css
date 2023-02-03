@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+@charset "UTF-8";
+
+i#icone {
+    display: none;
+}
+
+menu {
+    display: block;
+}
+
+menu > ul > li {
+    display: inline-block;
+}
